@@ -1,3 +1,27 @@
+.column-two {
+	margin: 0 auto;
+	max-width: 1070px;
+}
+.column-three {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+.column-four {
+	margin: 0 auto;
+	max-width: 960px;
+}
+.row-two {
+	margin: 0 auto;
+	max-width: 1070px;
+}
+.row-three {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+.row-four {
+	margin: 0 auto;
+	max-width: 960px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10,7 +34,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require custom
- *= require_self
+
+
+
  */
+
