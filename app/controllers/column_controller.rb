@@ -1,18 +1,10 @@
 class ColumnController < ApplicationController
   
-  def one  
+  def web  
 
   end
   
-  def two  
-
-  end
-  
-  def three  
-
-  end
-  
-  def four  
+  def internal  
 
   end
   

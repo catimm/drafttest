@@ -1,14 +1,10 @@
 Rails.application.routes.draw do
   
   root :to => 'home#index'
-  get '/column/one' => 'column#one'
-  get '/column/two' => 'column#two'
-  get '/column/three' => 'column#three'
-  get '/column/four' => 'column#four'
-  get '/row/one' => 'row#one'
-  get '/row/two' => 'row#two'
-  get '/row/three' => 'row#three'
-  get '/row/four' => 'row#four'
+  get '/column/internal' => 'column#internal'
+  get '/column/web' => 'column#web'
+  get '/row/internal' => 'row#internal'
+  get '/row/web' => 'row#web'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
